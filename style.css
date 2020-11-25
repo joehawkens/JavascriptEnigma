@@ -49,5 +49,9 @@
 
 .radio{
     display: block;
-    
+}
+
+#encode{
+    display: relative;
+    text-align: center;
 }
