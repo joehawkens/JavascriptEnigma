@@ -1,0 +1,53 @@
+
+/* CONTAINER ================================== */
+
+.container{
+    display: grid;
+    border: double black;
+    justify-content: center;
+    grid-gap: 10px;
+    margin: 10px;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 500px) ;
+    grid-template-areas: 
+    "input key"
+    "output output";
+    
+
+}
+
+/* BOXES ==================================== */
+
+#input{
+    grid-area: input;
+    border: double red;
+    display: grid;
+    grid-template-columns: 490px;
+    grid-template-rows: 250px 240px;
+}
+
+
+#output{
+    grid-area: output;
+    border: double red;
+}
+
+
+#key{
+    grid-area: key;
+    border: double red;
+}
+
+
+/* KEY SECTION ================================== */
+
+.headings{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+.radio{
+    display: block;
+    
+}
